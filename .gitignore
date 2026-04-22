@@ -1,0 +1,10 @@
+# OS / editor
+Thumbs.db
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# Node/tooling (not used but harmless to ignore)
+node_modules/
+dist/

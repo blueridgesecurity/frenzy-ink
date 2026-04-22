@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artists — Frenzy INK</title>
+  <meta name="description" content="Meet the Frenzy INK crew — Johnson City's most trusted tattoo artists." />
+  <link rel="icon" type="image/jpeg" href="logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.jpg" alt="Frenzy INK logo" />
+        <div>FRENZY <span>INK</span></div>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="artists.html">Artists</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <h1>The <span>Crew</span></h1>
+    <p>Diverse styles, one standard: great work, done clean, every time.</p>
+  </header>
+
+  <!-- Owner highlight -->
+  <section>
+    <div class="owner-block reveal">
+      <div class="owner-images">
+        <img src="justin1.jpg" alt="Justin Dotson — owner and artist" loading="lazy" />
+        <img src="justin2.jpg" alt="Justin Dotson outside the shop" loading="lazy" />
+      </div>
+      <div class="owner-copy">
+        <div class="eyebrow">Owner &amp; Artist</div>
+        <h2>Justin <span>Dotson</span></h2>
+        <p>
+          The new owner of Frenzy INK. Justin earned every step of this &mdash; years in the chair,
+          years in the shop, now driving its next chapter. Versatile, reliable, and always pushing quality.
+        </p>
+        <p><strong>Specialties:</strong> Custom designs, black &amp; grey, bold traditional, cover-ups.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Full roster -->
+  <section>
+    <div class="section-head">
+      <div class="section-eyebrow reveal">The Roster</div>
+      <h2 class="section-title reveal">Meet the <span>Artists</span></h2>
+    </div>
+
+    <div class="artist-grid" data-stagger>
+      <div class="artist-card">
+        <div class="artist-avatar">TE</div>
+        <h3>Todd Edwards</h3>
+        <div class="role">Founder &mdash; &ldquo;Frenzy&rdquo;</div>
+        <p>The man who started it all. Still a presence, still pouring into the shop &mdash; now with Justin at the helm.</p>
+      </div>
+      <div class="artist-card">
+        <div class="artist-avatar">JD</div>
+        <h3>Justin Dotson</h3>
+        <div class="role">Owner &amp; Artist</div>
+        <p>Custom, black &amp; grey, bold traditional, cover-ups. Takes the time to get every piece right.</p>
+      </div>
+      <div class="artist-card">
+        <div class="artist-avatar">RP</div>
+        <h3>Robbie Proffitt</h3>
+        <div class="role">Artist</div>
+        <p>A versatile hand with a loyal following &mdash; illustrative pieces, color work, and clean line.</p>
+      </div>
+      <div class="artist-card">
+        <div class="artist-avatar">TD</div>
+        <h3>TradDaddy</h3>
+        <div class="role">Traditional Specialist</div>
+        <p>Bold lines, solid color, no-nonsense traditional tattoos that hold up for life.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <h2 class="reveal">Book With Your Artist</h2>
+    <p class="reveal">DM the shop to schedule with any of the Frenzy crew.</p>
+    <a href="contact.html" class="btn reveal">Request a Booking</a>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-col">
+        <div class="footer-brand">
+          <img src="logo.jpg" alt="Frenzy INK" />
+          <div>FRENZY <span>INK</span></div>
+        </div>
+        <p>Tattoo &amp; piercing shop in Johnson City, TN.</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/profile.php?id=61562100748476" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+          <a href="https://www.instagram.com/frenzyink423/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Visit</h4>
+        <p>701 W Market St<br />Suite 50<br />Johnson City, TN 37604</p>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+14237473984">(423) 747-3984</a></li>
+          <li><a href="mailto:frenzyink423@gmail.com">frenzyink423@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="artists.html">Artists</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; <span id="year"></span> Frenzy INK &mdash; All Rights Reserved</div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
